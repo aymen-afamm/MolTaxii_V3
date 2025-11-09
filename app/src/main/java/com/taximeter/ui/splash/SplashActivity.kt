@@ -6,9 +6,9 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.taximeter.app.MainActivity
 import com.taximeter.app.databinding.ActivitySplashBinding
 import com.taximeter.app.ui.auth.LoginActivity
-import com.taximeter.app.ui.main.MainActivity
 import com.taximeter.app.viewmodels.AuthViewModel
 
 class SplashActivity : AppCompatActivity() {

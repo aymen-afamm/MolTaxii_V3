@@ -5,7 +5,7 @@
     <item
         android:id="@+id/action_profile"
         android:icon="@drawable/ic_profile"
-        android:title="@string/profile"
+        android:title="@string/nav_profile"
         app:showAsAction="ifRoom" />
 
     <item

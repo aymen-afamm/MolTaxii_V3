@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.taximeter.app.MainActivity
 import com.taximeter.app.databinding.ActivityLoginBinding
-import com.taximeter.app.ui.main.MainActivity
 import com.taximeter.app.viewmodels.AuthViewModel
 import kotlin.math.log
 

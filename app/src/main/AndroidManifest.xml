@@ -38,14 +38,14 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".MainActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 
         <activity
             android:name=".ui.profile.ProfileActivity"
             android:exported="false"
-            android:parentActivityName=".ui.main.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
 
 

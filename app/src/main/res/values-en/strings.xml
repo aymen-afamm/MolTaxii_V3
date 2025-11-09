@@ -1,3 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Name -->
+    <string name="app_name">TaxiMeter</string>
+
+    <!-- Main Screen -->
+    <string name="start">START</string>
+    <string name="pause">PAUSE</string>
+    <string name="resume">RESUME</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="total">TOTAL</string>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+    <string name="fare">Fare</string>
+    <string name="speed">Speed</string>
+
+    <!-- Trip Status -->
+    <string name="ride_started">Ride started</string>
+    <string name="ride_paused">Ride paused</string>
+    <string name="ride_resumed">Ride resumed</string>
+    <string name="ride_completed">Ride completed!</string>
+    <string name="trip_completed">Trip Completed</string>
+    <string name="meter_reset">Meter reset</string>
+    <string name="cannot_reset_during_ride">Cannot reset during ride</string>
+
+    <!-- Driver Profile -->
+    <string name="driver_profile">Driver Profile</string>
+    <string name="years_old">years old</string>
+    <string name="total_trips">Trips</string>
+    <string name="rating">Rating</string>
+    <string name="total_km">Kilometers</string>
+    <string name="total_revenue">Revenue (DH)</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="driver_info">Driver Information</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <!-- Trip Summary -->
+    <string name="trip_summary">Trip Summary</string>
+    <string name="trip_details">Trip Details</string>
+    <string name="duration">Duration</string>
+    <string name="fare_breakdown">Fare Breakdown</string>
+    <string name="base_fare">Base fare</string>
+    <string name="distance_fare">Distance fare</string>
+    <string name="time_fare">Time fare</string>
+    <string name="total_fare">Total</string>
+    <string name="share_receipt">Share Receipt</string>
+    <string name="new_trip">New Trip</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_rationale">This app requires location access to track your trip and calculate the fare.</string>
+    <string name="permission_denied">Location permission denied. The app cannot function without this permission.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Taxi Meter</string>
+    <string name="notification_channel_description">Notifications for taxi rides</string>
+    <string name="trip_notification_title">Trip completed</string>
+
+    <!-- Menu Items -->
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+
+    <!-- Messages -->
+    <string name="gps_disabled">GPS is disabled. Please enable it.</string>
+    <string name="calculating">Calculating…</string>
+    <string name="waiting_gps">Waiting for GPS signal…</string>
+
+    <!-- Buttons -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Meter</string>
+    <string name="nav_history">History</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+    <string name="coming_soon">Coming soon</string>
 </resources>

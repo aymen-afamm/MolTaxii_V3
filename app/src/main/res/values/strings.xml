@@ -1,15 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Taxi Meter</string>
+    <!-- App Name -->
+    <string name="app_name">TaxiMeter</string>
 
-    <!-- Menu Strings -->
-    <string name="profile">Profile</string>
-    <string name="history">History</string>
-    <string name="settings">Settings</string>
+    <!-- Main Screen -->
+    <string name="start">DÉMARRER</string>
+    <string name="pause">PAUSE</string>
+    <string name="resume">REPRENDRE</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="total">TOTAL</string>
+    <string name="time">Temps</string>
+    <string name="distance">Distance</string>
+    <string name="fare">Tarif</string>
+    <string name="speed">Vitesse</string>
 
-    <!-- Main Buttons -->
-    <string name="start_trip">Start</string>
-    <string name="pause_trip">Pause</string>
-    <string name="resume_trip">Resume</string>
-    <string name="stop_trip">Stop</string>
+    <!-- Trip Status -->
+    <string name="ride_started">Course démarrée</string>
+    <string name="ride_paused">Course en pause</string>
+    <string name="ride_resumed">Course reprise</string>
+    <string name="ride_completed">Course terminée !</string>
+    <string name="trip_completed">Course Terminée</string>
+    <string name="meter_reset">Compteur réinitialisé</string>
+    <string name="cannot_reset_during_ride">Impossible de réinitialiser pendant la course</string>
+
+    <!-- Driver Profile -->
+    <string name="driver_profile">Profil du Chauffeur</string>
+    <string name="years_old">ans</string>
+    <string name="total_trips">Courses</string>
+    <string name="rating">Note</string>
+    <string name="total_km">Kilomètres</string>
+    <string name="total_revenue">Revenu (DH)</string>
+    <string name="scan_qr_code">Scanner le QR Code</string>
+    <string name="driver_info">Informations du Chauffeur</string>
+    <string name="edit_profile">Modifier le Profil</string>
+
+    <!-- Trip Summary -->
+    <string name="trip_summary">Résumé de la Course</string>
+    <string name="trip_details">Détails de la Course</string>
+    <string name="duration">Durée</string>
+    <string name="fare_breakdown">Détail du Tarif</string>
+    <string name="base_fare">Tarif de base</string>
+    <string name="distance_fare">Tarif distance</string>
+    <string name="time_fare">Tarif temps</string>
+    <string name="total_fare">Total</string>
+    <string name="share_receipt">Partager le Reçu</string>
+    <string name="new_trip">Nouvelle Course</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_rationale">Cette application nécessite l\'accès à votre localisation pour suivre votre trajet et calculer le tarif de la course.</string>
+    <string name="permission_denied">Permission de localisation refusée. L\'application ne peut pas fonctionner sans cette permission.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Compteur Taxi</string>
+    <string name="notification_channel_description">Notifications pour les courses de taxi</string>
+    <string name="trip_notification_title">Course terminée</string>
+
+    <!-- Menu Items -->
+    <string name="settings">Paramètres</string>
+    <string name="history">Historique</string>
+    <string name="about">À propos</string>
+    <string name="logout">Déconnexion</string>
+
+    <!-- Messages -->
+    <string name="gps_disabled">Le GPS est désactivé. Veuillez l\'activer.</string>
+    <string name="calculating">Calcul en cours…</string>
+    <string name="waiting_gps">En attente du signal GPS…</string>
+
+    <!-- Buttons -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="close">Fermer</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Compteur</string>
+    <string name="nav_history">Historique</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="coming_soon">Bientôt disponible</string>
 </resources>

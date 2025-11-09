@@ -1,3 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Name -->
+    <string name="app_name">عداد الأجرة</string>
+
+    <!-- Main Screen -->
+    <string name="start">ابدأ</string>
+    <string name="pause">توقف</string>
+    <string name="resume">استئناف</string>
+    <string name="stop">إنهاء</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="total">المجموع</string>
+    <string name="time">الوقت</string>
+    <string name="distance">المسافة</string>
+    <string name="fare">الأجرة</string>
+    <string name="speed">السرعة</string>
+
+    <!-- Trip Status -->
+    <string name="ride_started">بدأت الرحلة</string>
+    <string name="ride_paused">الرحلة متوقفة</string>
+    <string name="ride_resumed">تم استئناف الرحلة</string>
+    <string name="ride_completed">اكتملت الرحلة!</string>
+    <string name="trip_completed">الرحلة مكتملة</string>
+    <string name="meter_reset">تم إعادة تعيين العداد</string>
+    <string name="cannot_reset_during_ride">لا يمكن إعادة التعيين أثناء الرحلة</string>
+
+    <!-- Driver Profile -->
+    <string name="driver_profile">ملف السائق</string>
+    <string name="years_old">سنة</string>
+    <string name="total_trips">الرحلات</string>
+    <string name="rating">التقييم</string>
+    <string name="total_km">الكيلومترات</string>
+    <string name="total_revenue">الإيرادات (درهم)</string>
+    <string name="scan_qr_code">مسح رمز الاستجابة السريعة</string>
+    <string name="driver_info">معلومات السائق</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+
+    <!-- Trip Summary -->
+    <string name="trip_summary">ملخص الرحلة</string>
+    <string name="trip_details">تفاصيل الرحلة</string>
+    <string name="duration">المدة</string>
+    <string name="fare_breakdown">تفصيل الأجرة</string>
+    <string name="base_fare">الأجرة الأساسية</string>
+    <string name="distance_fare">أجرة المسافة</string>
+    <string name="time_fare">أجرة الوقت</string>
+    <string name="total_fare">الإجمالي</string>
+    <string name="share_receipt">مشاركة الإيصال</string>
+    <string name="new_trip">رحلة جديدة</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_rationale">يتطلب هذا التطبيق الوصول إلى موقعك لتتبع رحلتك وحساب الأجرة.</string>
+    <string name="permission_denied">تم رفض إذن الموقع. لا يمكن للتطبيق العمل بدون هذا الإذن.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">عداد الأجرة</string>
+    <string name="notification_channel_description">إشعارات رحلات الأجرة</string>
+    <string name="trip_notification_title">اكتملت الرحلة</string>
+
+    <!-- Menu Items -->
+    <string name="settings">الإعدادات</string>
+    <string name="history">السجل</string>
+    <string name="about">حول</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <!-- Messages -->
+    <string name="gps_disabled">نظام تحديد المواقع معطل. الرجاء تفعيله.</string>
+    <string name="calculating">جاري الحساب…</string>
+    <string name="waiting_gps">في انتظار إشارة GPS…</string>
+
+    <!-- Buttons -->
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="close">إغلاق</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">العداد</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_profile">الملف</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="coming_soon">قريبا</string>
 </resources>

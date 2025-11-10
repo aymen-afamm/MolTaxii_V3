@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="32dp">
@@ -30,13 +31,21 @@
         android:textColorHint="@color/light_gray"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etUsername"
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/etUsername"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="aymenzagnouni@gmaile.com"-->
+<!--            android:inputType="text"-->
+<!--            app:boxBackgroundMoud="filled"-->
+<!--            app:boxStrokeColor="#EBD300"-->
+<!--            android:textColor="@color/white" />-->
+
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nom d'utilisateur"
-            android:textColor="@color/white"
-            android:inputType="text" />
+            android:hint="Email"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -65,12 +74,5 @@
         android:backgroundTint="@color/taxi_yellow"
         android:textColor="@color/black" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Utilisateurs de test:\nkarima / 1234\nahmed / 1234"
-        android:textColor="@color/light_gray"
-        android:textSize="12sp"
-        android:gravity="center" />
+
 </LinearLayout>

@@ -77,10 +77,23 @@
     <string name="edit">Modifier</string>
     <string name="close">Fermer</string>
 
-    <!-- Bottom Navigation -->
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
     <string name="nav_home">Compteur</string>
+    <string name="nav_meter">Compteur</string>
+    <string name="nav_map">Carte</string>
     <string name="nav_history">Historique</string>
     <string name="nav_profile">Profil</string>
     <string name="nav_settings">Paramètres</string>
+    <string name="account">Compte</string>
     <string name="coming_soon">Bientôt disponible</string>
+
+    <!-- History Screen -->
+    <string name="statistics">Statistiques</string>
+    <string name="average_fare">Moyenne</string>
+    <string name="recent_trips">Courses récentes</string>
+
+    <!-- Map Screen -->
+    <string name="current_location">Position actuelle</string>
 </resources>

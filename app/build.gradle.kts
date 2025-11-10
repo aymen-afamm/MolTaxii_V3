@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id ("com.google.devtools.ksp")
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin") version "2.0.1"
+    id ("kotlin-parcelize")
 }
 
 android {
@@ -74,4 +75,10 @@ dependencies {
 
     // Gson for JSON parsing
     implementation("com.google.code.gson:gson:2.10.1")
+
+
+
+    ///test hada
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.0")
 }

@@ -6,6 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.taximeter.MainActivity
 import com.taximeter.app.MainActivity
 import com.taximeter.app.databinding.ActivitySplashBinding
 import com.taximeter.app.ui.auth.LoginActivity
@@ -25,9 +26,9 @@ class SplashActivity : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             val currentUser = viewModel.getCurrentUser()
             val intent = if (currentUser != null) {
-                Intent(this, MainActivity::class.java)
-            } else {
                 Intent(this, LoginActivity::class.java)
+            } else {
+                Intent(this, MainActivity::class.java)
             }
             startActivity(intent)
             finish()
